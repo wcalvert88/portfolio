@@ -138,12 +138,12 @@ nav {
 	box-shadow: none;
 	height: 100%;
 	text-align: center;
-	
 }
 
 nav div a{
-	background-color: #aaa;
-	padding: 20px 50px;
+	/* background-color: #aaa; */
+	width: 200px;
+	/* padding: 20px 50px; */
 	border-radius: 10px;
 }
 
@@ -200,10 +200,16 @@ a.back-to-top{
 	font-size: 50px;
 }
 
-/* .nav-stuff {
-	min-width: 200px;
-} */
+.nav-stuff {
+	background-color: #aaa;
+	border-radius: 10px;
+	margin-top: 5px;
+	width: 220px;
+}
 
+.about-info {
+	margin: 10px;
+}
 @media (max-width:1023px){
 	.person .person-avatar img{
 		width:60vh;
