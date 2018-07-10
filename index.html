@@ -5,7 +5,8 @@
   <meta content="width=device-width initial-scale=1"
         name="viewport">
   <meta content="IE=edge"
-        http-equiv="X-UA-Compatible"><!-- Materialize - Compiled and minified CSS-->
+        http-equiv="X-UA-Compatible">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css" rel=stylesheet>
   <link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/css/materialize.min.css"
         rel="stylesheet"><!-- Font Awesome Icon - CSS-->
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"
@@ -14,10 +15,9 @@
         href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
         integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
         rel="stylesheet"><!-- Custom Styles-->
+        
   <link href="static/css/style.css"
         rel="stylesheet">
-  <script src="static/scripts/main.js"
-        type="text/javascript"></script>
   <title>Wade Calvert | Full Stack Developer</title><!-- Open Graph-->
   <meta content="en_US"
         property="og:locale">
@@ -39,16 +39,7 @@
         name="theme-color"><!--if lt IE 9script(src='//html5shim.googlecode.com/svn/trunk/html5.js')
     -->
   <meta content="index, follow"
-        name="robots"><!-- <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-      ga('create', 'UA-39096633-2', 'auto');
-      ga('send', 'pageview');
-  </script>
-  <meta content="-3F1R8ekDXe8XFfCi7eIVfXOSWqlp_pWNQX2dfgKD4Y"
-        name="google-site-verification"> -->
+        name="robots">
 </head>
 <body>
   <!-- Main Content
@@ -95,22 +86,27 @@
         </div>
       </div>
     </nav>
-  </aside><!-- Skills section -->
+  </aside>
+  
+  <!-- About section -->
   <section class="section scrollspy"
            id="about-me">
     <h3 class="page-title white-text teal">About</h3>
     <div class="about-info">
-      <p>I am a life-long learner and problem solver.  Being gifted with the ability to think outside the box, a love of discovery, and a passion for finding the most efficient solutions has helped me immensely on my journey through life.  At previous and current jobs I have been known to be highly detail oriented and speed up processes.</p>
+      <p>I am a life-long learner and problem solver.  Being gifted with the ability to think outside the box, a love of discovery, and a passion for finding the most efficient solutions has helped me immensely on my journey through life.  At previous and current jobs, I have been known to be highly detail oriented and speed up processes.</p>
+
+      <p>I currently work in the automotive industry as a Numerical Engineer.  I use ATOS 3d scanning equipment and Polyworks daily, and write scripts for both.  I am also available for freelance work, if you are interested contact me.  My favorite languages to work with are PHP and Python.  I am also proficient in HTML, CSS, JavaScript, and NodeJS.</p>
     
-      <p>In my spare time I enjoy being with my family, disc golfing, hiking, and always learning</p>
+      <p>In my spare time I enjoy being with my family, disc golfing, hiking, and always learning.</p>
+      <hr>
       <div class="current-learning">
         <strong><span class="fake-h">Currently learning:<span></strong>  Symfony // Vagrant
       </div>
 
-      <!-- add more  -->
-
     </div>
   </section>
+
+  <!-- Skills section -->
   <section class="section scrollspy"
            id="skills">
     <h3 class="page-title white-text teal">Skills</h3>
@@ -259,7 +255,7 @@
             <div class="col s4 m2">
               <img alt=""
                        class="responsive-img"
-                       src="static/img/Atos.png">Atos v6.3-2016
+                       src="static/img/Atos.png">Atos v6.3-v2016
             </div>
             <div class="col s4 m2">
                 <img alt=""
@@ -271,25 +267,180 @@
       </div>
     </div>
   </section>
+
+  <!-- Portfolio section -->
   <section class="section scrollspy"
            id="portfolio">
     <h3 class="page-title white-text teal">Portfolio</h3>
-    <div class="col s4 m2">
+    <h4 class="portfolio-title">PHP</h4>
+    <div class="col s4 m2 portfolio-item">
       <img alt=""
            class="responsive-img projects"
            src="static/img/cmsProject.png">
-      <div class="description">
-        <a href="http://wadecalvertprojects.com/index.php" target="_blank">Procedural PHP content management system.</a><hr> This is a full blown CMS project that is written in raw PHP, JavaScript and Bootstrap. It has a login system and a full administration section to be able to control anything on the site.
+      <div class="description"><strong>
+        <a href="http://wadecalvertprojects.com/index.php" target="_blank">Procedural PHP content management system</a></strong><hr> This is a full blown CMS project that is written in raw PHP, JavaScript and Bootstrap. It has a login system and a full administration section to be able to control anything on the site.
       </div>
     </div>
-    <div class="col s4 m2">
+    <div class="col s4 m2 portfolio-item">
       <img alt=""
            class="responsive-img projects"
            src="static/img/photoGallery.JPG">
-      <div class="description"><a href="http://wadecalvertprojects.com/UdemyPhotoGallery/index.php" target="_blank">PHP Object Oriented Photo Gallery.</a><hr>This is a photo gallery written completely in Object Oriented PHP, JavaScript and Bootstrap.  It is really similar to the PHP CMS except it's written in the Object Oriented style and handles pictures.
+      <div class="description"><a href="http://wadecalvertprojects.com/UdemyPhotoGallery/index.php" target="_blank"><strong>PHP Object Oriented Photo Gallery</strong></a><hr>This is a photo gallery written completely in Object Oriented PHP, JavaScript and Bootstrap.  It is really similar to the PHP CMS except it's written in the Object Oriented style and handles pictures.
+      </div>
+    </div><hr>
+
+    <br /><br />
+    <h4 class="portfolio-title">Python</h4>
+    <div class="col s4 m2 portfolio-item">
+        <img alt=""
+             class="responsive-img projects"
+             src="static/img/Atos.png">
+        <div class="description"><strong>Polygonize</strong><hr>This script runs through all scan data in the current project then: 
+          <ol>
+            <li>Polyginizes</li>
+            <li>Fills holes</li>
+            <li>Thins</li>
+            <li>Removes data that is not connected to the model based on number of connected triangles being less than 10% of all triangles</li>
+            <li>Splits the model on the Y-axis</li>
+            <li>Exports all models individually in an folder in the current project</li>
+          </ol>
+        All of these features are fully customizable and the default values are based on the size of the model scanned.  This script has saved the department several hours per project in post-processing and consistency of model quality throughout the department.
+        </div>
+      </div>
+      <br /><br />
+      <div class="col s4 m2 portfolio-item">
+          <!-- <img alt=""
+               class="responsive-img projects"
+               src="static/img/Atos.png"> -->
+        <div class="description"><strong>Save As</strong><hr>This script sets up the whole project for scanning. Features include:
+          <ol>
+            <li>Creates a standard naming system for all projects based on a work order number, and what is being scanned, so all files are consistent and professional looking</li>
+            <li>Sets scale bars based on which system is being used</li>
+            <li>Sets reference points to all defaults used by the system</li>
+            <li>Sets up a Tri-Top session to import all photos and bundle them together</li>
+            <li>Creates a file structure for the entire project including an exports folder for all future mesh in the project</li>
+          </ol>
+        This script has organized the file structure of the department into readable and searchable file names eliminating spelling mistakes and lost files.  It also sets up every project to be set up with the same system settings for a consistent scan and project layout.
+          </div>
+        </div>
+        <br /><br />
+        <div class="col s4 m2 portfolio-item">
+            <!-- <img alt=""
+                 class="responsive-img projects"
+                 src="static/img/Atos.png"> -->
+          <div class="description"><strong>Duplicate Scans</strong><hr>Out of all of my scripts for this software this is single-handedly the most useful and most time-saving script I have written. It is extremely simple and extremely useful. Features include
+            <ol>
+              <li>Creates a copy of the selected scan</li>
+              <li>Pastes that copy at the end of the current measurement series</li>
+              <li>Changes the scanning parameters that was used to grab more points to fill in gaps in the scan</li>
+            </ol>
+          This script is awesome for stubborn sections of a model that the scanner just refuses to collect data.  I realized one day that when the model is scanned the scan data itself is all collected it's only the filters that show you Atos built-in quality points instead of all points collected.  This script gives you both the best points and the extra points and when you use the polygonize script later it will choose the best points available and fill in the rest where needed.  This eliminates most fighting with the scanner and picks up all points without having to constantly re-scan sections of the model.
+            </div>
+          </div>
+    <br /><br />
+
+    <div class="col s4 m2 portfolio-item">
+        <!-- <img alt=""
+             class="responsive-img projects"
+             src="static/img/Atos.png"> -->
+      <div class="description"><strong>Intersect Curve</strong><hr>This script is great for inspection on known targets. It requires a little bit of set-up which I will explain at the end of this section. Features include:
+        <ol>
+          <li>Finds the theoretical intersection of two curves</li>
+          <li>Creates a distance line of length 0 on the intersection</li>
+          <li>Creates an actual point on that line</li>
+          <li>Creates a nominal point based on the name of the two curves</li>
+          <li>Compares the nominal point to the actual point</li>
+          <li>Sets the display of the label to show the comparison with an indicator showing how close they are to being within a 5mm tolerance</li>
+        </ol>
+      To run this script you need to create 2 curves on the model that intersect at a known target name them both with the coordinates for the target location. For example: X1000_Y1000_Z1000_1, X1000_Y1000_Z1000_2. When you run this script it will create the nominal point at X 1000 Y 1000 Z 1000, and compare it to the actual intersection point between the two curves.  In Atos, there is no direct way to find the intersection of 2 curves you must use lines which is highly inaccurate considering most models are not flat making lines at the intersection not be on the model itself but several millimeters off the model.  That is why this script is needed because curves are always on the model making the intersection also being on the model.
+        </div>
+      </div>
+
+      <br /><br />
+      <div class="col s4 m2 portfolio-item">
+          <!-- <img alt=""
+               class="responsive-img projects"
+               src="static/img/Atos.png"> -->
+        <div class="description"><strong>Single-Player Mode</strong><hr>This is a fun script that automates most of the scanning for you as long as it is set up to a stable tower. Features include:
+          <ol>
+            <li>Takes a scan pass every 10 seconds</li>
+            <li>If there are any errors (movement, lighting, unknown targets), it waits an additional 15 seconds and tries again</li>
+          </ol>
+
+          This script makes for a great workout, 10 seconds is not very much time to move a tower to the next scan location.  I do have Easy at 20 seconds, Medium at 15 seconds, and Hard mode with 10 seconds between shots.  I've often toyed around with the idea of making a game out of this script where you start off with 10,000 points and every shot takes 100 points off and every error 1000 points off but never implemented it.
+
+          This script is great if you are working alone and just need to scan fast and do not need to check the system between scan passes.
+        </div>
+      </div>
+
+      <br /><br />
+      <div class="col s4 m2 portfolio-item">
+          <!-- <img alt=""
+                class="responsive-img projects"
+                src="static/img/Atos.png"> -->
+        <div class="description"><strong>Deviation Maps</strong><hr>This script compares your model with CAD data to make for easy and professional looking report pages.  Features include:
+          <ol>
+            <li>Creates a CAD comparison to actual color map with 10mm tolerance visible and acceptable within 5mm tolerance
+            <li>Sets the model in Z+ view and creates a cutting plane along bottom half</li>
+            <li>You create the deviation labels where needed</li>
+            <li>Sets the labels to show comparisons</li>
+            <li>Creates a report page to save current view and deviations</li>
+            <li>Removes cutting plane</li>
+            <li>Orients model in Y+ view</li>
+            <li>Repeats previous steps going through every view of the model</li>
+          </ol>
+          This script is great for assisting in the creation of deviation maps and professional looking report pages.
+        </div>
+      </div>
+
+      <br /><br />
+      <div class="col s4 m2 portfolio-item">
+          <!-- <img alt=""
+               class="responsive-img projects"
+               src="static/img/Atos.png"> -->
+        <div class="description"><strong>Auto-setup</strong><hr>This script is hands down the most complicated script I have written for Atos. It automatically creates a 3-2-1 transformation on the scan project based on your selection of reference points.  Features include:
+          <ol>
+            <li>Creates a table based on selected reference points</li>
+            <li>Sorts through those points using Linear Algebra to find a 4-point plane for the Z plane</li>
+            <li>Finds 12mm points to use for the Y-axis</li>
+            <li>Chooses one of the 12mm points to use for the X-point</li>
+            <li>Finds the distance between the Z plane and the model and sets it up for the transformation</li>
+            <li>Sets the Y-axis to 508mm</li>
+            <li>Sets the X-point to 730mm</li>
+          </ol>
+
+          This script is still in experimental mode and currently works 90% of the time. The only issue is which direction the Y-axis is pointing which can only be set visually by looking at the model and deciding if it is oriented correctly. This error is easily fixable by a human and without machine learning and visualization software available in the program it is most likely impossible to guarantee correct Y-axis direction.  All numbers are based on a surface plate with plugs every 127mm. It uses Python classes to build the points in a format used to create the points, lines, plane, and make them ready to use for the 3-2-1 transformation.
+        </div>
+      </div>
+      <br /><br />
+      <div class="col s4 m2 portfolio-item">
+          <!-- <img alt=""
+               class="responsive-img projects"
+               src="static/img/Atos.png"> -->
+        <div class="description"><strong>All of these scripts are available upon request. Contact me if you are interested.</strong>
+        </div>
+      </div>
+      <hr>
+      <br /><br />
+    <h4 class="portfolio-title">NodeJS</h4>
+    <div class="col s4 m2 portfolio-item">
+      <img alt=""
+            class="responsive-img projects"
+            src="static/img/NodeJSCalendar.PNG">
+      <div class="description"><strong><a href="https://wadecalvertprojects-node-cal.herokuapp.com/">Calendar App</a></strong><hr>This app is based on the Google Calendar API and creates a sub-calendar overlay on your Google calendar.  Features include:
+        <ol>
+          <li>Add events</li>
+          <li>Delete events</li>
+          <li>Search events</li>
+          <li>Check busy periods during a specified period of time</li>
+        </ol>
+        This app was created to help me learn NodeJS and Google APIs.  It is a standard calendar and contains full functionality.
       </div>
     </div>
   </section>
+
+  <!-- Contact section -->
+
   <section class="section scrollspy"
            id="contact">
     <h3 class="page-title white-text teal">Contact</h3>
@@ -297,9 +448,9 @@
       <a class="fa fa-envelope"
            href="mailto:wcalvert88@gmail.com"
            title="mail: wcalvert88@gmail.com"></a> 
-           <!-- <a class="fa fa-github"
+           <a class="fa fa-github"
            href="https://github.com/wcalvert88"
-           title="github: wcalvert88"></a> --> <a class="fa fa-linkedin"
+           title="github: wcalvert88"></a> <a class="fa fa-linkedin"
            href="https://www.linkedin.com/in/wade-calvert"
            title="linkedin: wade-calvert"></a>
     </div>
